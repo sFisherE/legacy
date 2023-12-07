@@ -2117,11 +2117,11 @@ void R_DoneFreeType( void );
 void RE_RegisterFont(const char *fontName, int pointSize, fontInfo_t *font);
 
 //Bloom Stuff
-void R_BloomInit( void );
-void R_BloomScreen( void );
+//void R_BloomInit( void );
+//void R_BloomScreen( void );
 
 // Postprocessing
-void R_PostprocessScreen( void );
-void R_PostprocessingInit(void);
+//void R_PostprocessScreen( void );
+//void R_PostprocessingInit(void);
 
 #endif //TR_LOCAL_H

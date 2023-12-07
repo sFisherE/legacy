@@ -1213,8 +1213,8 @@ void RB_ExecuteRenderCommands( const void *data ) {
 			break;
 		case RC_STRETCH_PIC:
 			//Check if it's time for BLOOM!
-			R_PostprocessScreen();
-			R_BloomScreen();
+			//R_PostprocessScreen();
+			//R_BloomScreen();
 			data = RB_StretchPic( data );
 			break;
 		case RC_DRAW_SURFS:
@@ -1225,8 +1225,8 @@ void RB_ExecuteRenderCommands( const void *data ) {
 			break;
 		case RC_SWAP_BUFFERS:
 			//Check if it's time for BLOOM!
-			R_PostprocessScreen();
-			R_BloomScreen();
+			//R_PostprocessScreen();
+			//R_BloomScreen();
 			data = RB_SwapBuffers( data );
 			break;
 		case RC_SCREENSHOT:
